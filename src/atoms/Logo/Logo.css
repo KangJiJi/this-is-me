@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Amarillo";
+  src: url("./../../assets/font/Amarillo/Amarillo.otf") format("opentype"),
+    url("./../../assets/font/Amarillo/Amarillo.ttf") format("truetype");
+}
+
+.logo {
+  font-family: Amarillo;
+  display: inline-block;
+}
+
+.logo--large {
+  font-size: 50px;
+  padding: 20px 0px 40px 0px;
+  font-size: 3.125rem;
+  padding: 1.25rem 0rem 2.5rem 0rem;
+}
+
+.logo--medium {
+  font-size: 30px;
+  padding: 10px 0px 25px 0px;
+  font-size: 1.875rem;
+  padding: 0.625rem 0rem 1.5625rem 0rem;
+}
+
+.logo--small {
+  font-size: 10px;
+  padding: 4px 0px 8px 0px;
+  font-size: 0.625rem;
+  padding: 0.25rem 0rem 0.5rem 0rem;
+}
