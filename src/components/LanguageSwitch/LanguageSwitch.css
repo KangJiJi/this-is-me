@@ -1,0 +1,11 @@
+.language-switch {
+  display: inline-block;
+  width: 132px;
+  width: 8.25rem;
+}
+
+.language-switch__language-button-wrapper {
+  display: inline-block;
+  margin: 3px;
+  margin: 0.188rem;
+}
