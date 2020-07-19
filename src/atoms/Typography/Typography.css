@@ -1,0 +1,38 @@
+.typography {
+  color: #08182b;
+}
+
+.typography--size--default {
+  font-size: 16px;
+  font-size: 1rem;
+}
+
+.typography--size--medium {
+  font-size: 32px;
+  font-size: 2rem;
+}
+
+.typography--size--large {
+  font-size: 64px;
+  font-size: 4rem;
+}
+
+.typography--color--primary {
+  color: #0fbcf9;
+}
+
+.typography--color--subPrimary {
+  color: #ee2560;
+}
+
+.typography--color--secondary {
+  color: #4bcffa;
+}
+
+.typography--color--black {
+  color: #08182b;
+}
+
+.typography--type--inline {
+  display: inline;
+}
