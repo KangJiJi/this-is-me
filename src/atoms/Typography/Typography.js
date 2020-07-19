@@ -18,7 +18,7 @@ const Typography = (props) => {
 Typography.propTypes = {
   size: PropTypes.oneOf(["default", "medium", "large"]),
   color: PropTypes.oneOf(["primary", "secondary", "subPrimary", "black"]),
-  type: PropTypes.oneOf(["inline", "block"]),
+  type: PropTypes.oneOf(["inline", "block", "inlineBlock"]),
   children: PropTypes.string.isRequired,
 };
 

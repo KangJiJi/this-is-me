@@ -36,3 +36,7 @@
 .typography--type--inline {
   display: inline;
 }
+
+.typography--type--inlineBlock {
+  display: inline-block;
+}
