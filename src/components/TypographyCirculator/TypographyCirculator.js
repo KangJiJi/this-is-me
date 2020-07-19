@@ -20,7 +20,7 @@ const TypographyCirculator = (props) => {
 
   return (
     <div className={`typography-circulator`}>
-      <Typography type={"inline"} size={size} color={color}>
+      <Typography type={"inlineBlock"} size={size} color={color}>
         {stringList[currentStringIndex]}
       </Typography>
     </div>
