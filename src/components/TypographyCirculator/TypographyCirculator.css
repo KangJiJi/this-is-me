@@ -1,0 +1,22 @@
+.typography-circulator {
+  display: inline-block;
+  animation: opacityAnimation 2.3s linear infinite;
+}
+
+@keyframes opacityAnimation {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+  }
+}
