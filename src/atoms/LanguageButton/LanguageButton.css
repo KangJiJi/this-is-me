@@ -19,7 +19,7 @@
   border-radius: 0.625rem;
 }
 
-.language-button:hover {
+.language-button:active {
   background: #4bcffa;
 }
 
