@@ -11,18 +11,27 @@
   border-width: 1px;
   width: 50px;
   height: 50px;
+  border-width: 0.063rem;
+  width: 3.125rem;
+  height: 3.125rem;
 }
 
 .avatar--medium {
   border-width: 2px;
   width: 150px;
   height: 150px;
+  border-width: 0.125rem;
+  width: 9.375rem;
+  height: 9.375rem;
 }
 
 .avatar--large {
   border-width: 3px;
   width: 250px;
   height: 250px;
+  border-width: 0.188rem;
+  width: 15.625rem;
+  height: 15.625rem;
 }
 
 .avatar__avatar-image {
