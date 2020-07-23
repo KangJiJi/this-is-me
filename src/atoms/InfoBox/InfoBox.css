@@ -49,6 +49,7 @@
 .info-box__contents-val {
   display: inline-block;
   vertical-align: middle;
+  word-break: break-all;
   max-width: calc(100% - 11px);
   max-width: calc(100% - 0.688rem);
 }
