@@ -1,0 +1,22 @@
+.image-list-row__image {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 3px;
+  padding-right: 10px;
+  padding-left: 0.188rem;
+  padding-right: 0.625rem;
+}
+
+.image-list-row__image > img {
+  vertical-align: middle;
+  width: auto;
+  height: 20px;
+  height: 1.25rem;
+}
+
+.image-list-row__string {
+  display: inline-block;
+  width: calc(100% - 33px);
+  word-break: break-all;
+  width: calc(100% - 2.063rem);
+}
