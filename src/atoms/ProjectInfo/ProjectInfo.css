@@ -25,6 +25,8 @@
 
   .project-info__image {
     width: 100%;
+    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
 
   .project-info__contents {
@@ -44,6 +46,8 @@
 
   .project-info__image {
     width: 100%;
+    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
 
   .project-info__contents {
@@ -63,6 +67,8 @@
 
   .project-info__image {
     width: 100%;
+    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
 
   .project-info__contents {
@@ -70,32 +76,14 @@
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+@media only screen and (min-width: 1024px) {
   .project-info {
-    width: 1002px;
-    width: 62.625rem;
-  }
-
-  .project-info__image {
-    width: 50%;
+    width: 994px;
+    width: 62.125rem;
   }
 
   .project-info__contents {
-    width: 50%;
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  .project-info {
-    width: 1200px;
-    width: 75rem;
-  }
-
-  .project-info__image {
-    width: 50%;
-  }
-
-  .project-info__contents {
-    width: 50%;
+    width: 594px;
+    width: 37.125rem;
   }
 }
