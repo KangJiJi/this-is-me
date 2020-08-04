@@ -27,37 +27,30 @@ const PersonalInfo = () => {
           <Avatar size={`large`} avatarImage={avatarImage} />
         </div>
         <div className={`personal-info__name personal-info__card`}>
-          <span className={`personal-info--primary-color`}>강지훈</span> /
-          KangJiJi
+          <span className={`font-color--primary-color`}>강지훈</span> / KangJiJi
         </div>
         <div className={`personal-info__greeting personal-info__card`}>
           <p>
             안녕하세요. 만나서 반갑습니다. 저는{" "}
-            <span className={`personal-info--secondary-primary-color`}>
+            <span className={`font-color--secondary-primary-color`}>
               JavaScript
             </span>
             ,{" "}
-            <span className={`personal-info--secondary-primary-color`}>
-              UI/UX
-            </span>
+            <span className={`font-color--secondary-primary-color`}>UI/UX</span>
             ,{" "}
-            <span className={`personal-info--secondary-primary-color`}>
-              언어
-            </span>
+            <span className={`font-color--secondary-primary-color`}>언어</span>
             를 좋아하는{" "}
-            <span className={`personal-info--primary-color`}>Front-end</span>
+            <span className={`font-color--primary-color`}>Front-end</span>{" "}
             개발자입니다.
             <br />
             <br />
             많은 사람들과 논리적으로{" "}
-            <span className={`personal-info--secondary-primary-color`}>
-              소통
-            </span>
-            하고 끊임없는
-            <span className={`personal-info--secondary-primary-color`}>
+            <span className={`font-color--secondary-primary-color`}>소통</span>
+            하고 끊임없는{" "}
+            <span className={`font-color--secondary-primary-color`}>
               자기 계발
             </span>
-            을 <span className={`personal-info--primary-color`}>지향</span>
+            을 <span className={`font-color--primary-color`}>지향</span>
             합니다.
           </p>
         </div>

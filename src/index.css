@@ -149,3 +149,11 @@ a,
 u {
   text-decoration: none;
 }
+
+.font-color--primary-color {
+  color: #0fbcf9;
+}
+
+.font-color--secondary-primary-color {
+  color: #ee2560;
+}

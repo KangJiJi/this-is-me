@@ -35,14 +35,6 @@
   margin-bottom: 1.25rem;
 }
 
-.personal-info--primary-color {
-  color: #0fbcf9;
-}
-
-.personal-info--secondary-primary-color {
-  color: #ee2560;
-}
-
 @media only screen and (max-width: 374px) {
   .personal-info {
     width: 100%;
