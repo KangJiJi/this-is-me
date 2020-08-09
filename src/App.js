@@ -1,7 +1,12 @@
 import React from "react";
+import Main from "./pages/Main/Main";
 
-function App() {
-  return <div className="App">this-is-me</div>;
-}
+const App = () => {
+  return (
+    <div className="App">
+      <Main />
+    </div>
+  );
+};
 
 export default App;
