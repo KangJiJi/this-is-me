@@ -1,0 +1,28 @@
+.project-info-list__info {
+  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
+}
+
+.project-info-list__info__p {
+  line-height: 1.2;
+  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
+}
+
+.project-info-list__info__characteristic {
+  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
+}
+
+.project-info-list__info__link-wapper {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+}
+
+.project-info-list__info__link-wapper > a:visited,
+.project-info-list__info__link-wapper > a:hover,
+.project-info-list__info__link-wapper > a:focus,
+.project-info-list__info__link-wapper > a:active {
+  text-decoration: none;
+}
