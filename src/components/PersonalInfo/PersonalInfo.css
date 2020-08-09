@@ -1,10 +1,24 @@
 .personal-info {
-  display: block;
-  margin: 0 auto;
+  display: table;
+  width: 100%;
+  min-height: 100vh;
+  max-height: 1500px;
+  max-height: 93.75rem;
+}
+
+.personal-info__inner {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.personal-info__col-wrapper {
+  display: inline-block;
 }
 
 .personal-info__col {
   display: inline-block;
+  text-align: left;
   vertical-align: top;
 }
 
@@ -36,8 +50,10 @@
 }
 
 @media only screen and (max-width: 374px) {
-  .personal-info {
+  .personal-info__col-wrapper {
     width: 100%;
+    margin-bottom: 80px;
+    margin-bottom: 5rem;
   }
 
   .personal-info__col {
@@ -65,8 +81,10 @@
 }
 
 @media only screen and (min-width: 375px) and (max-width: 767px) {
-  .personal-info {
+  .personal-info__col-wrapper {
     width: 100%;
+    margin-bottom: 80px;
+    margin-bottom: 5rem;
   }
 
   .personal-info__col {
@@ -94,8 +112,10 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .personal-info {
+  .personal-info__col-wrapper {
     width: 100%;
+    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
   }
 
   .personal-info__col {
@@ -123,13 +143,9 @@
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1439px) {
-  .personal-info {
+  .personal-info__col-wrapper {
     width: 1002px;
-    margin-top: 130px;
-    margin-bottom: 130px;
     width: 62.625rem;
-    margin-top: 8.125rem;
-    margin-bottom: 8.125rem;
   }
 
   .personal-info__col {
@@ -162,13 +178,9 @@
 }
 
 @media only screen and (min-width: 1440px) {
-  .personal-info {
+  .personal-info__col-wrapper {
     width: 1200px;
-    margin-top: 130px;
-    margin-bottom: 130px;
     width: 75rem;
-    margin-top: 8.125rem;
-    margin-bottom: 8.125rem;
   }
 
   .personal-info__col {
