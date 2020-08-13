@@ -14,7 +14,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "./deploy.sh -h 34.85.33.63 -k ~/.ssh/kangji -u kangji -s ./build/ -d ./public_html/"
   },
   "eslintConfig": {
     "extends": "react-app"
