@@ -16,8 +16,8 @@ const Header = () => {
         {/* 다국어 변경 버튼 로직 추가 */}
         <LanguageSwitch
           switchToKorean={() => console.log("korean")}
-          switchToChinese={() => console.log("chinese")}
-          switchToEnglish={() => console.log("english")}
+          switchToChinese={() => alert("正在准备功能编程。")}
+          switchToEnglish={() => alert("Preparing to develop the function.")}
         />
       </div>
     </div>
