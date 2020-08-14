@@ -19,9 +19,9 @@
 
 .main-typography__inner__typography-wrapper__typography-circulator-wrapper {
   display: inline-block;
-  width: 215px;
+  width: 225px;
   text-align: center;
-  width: 13.438rem;
+  width: 14.063rem;
 }
 
 @media only screen and (max-width: 374px) {
@@ -39,6 +39,9 @@
   .main-typography__inner__typography-wrapper {
     width: 370px;
     width: 23.125rem;
+  }
+  .main-typography__inner__typography-wrapper__typography-circulator-wrapper {
+    padding-bottom: 5px;
   }
 }
 
