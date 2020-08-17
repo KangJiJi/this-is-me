@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 
 import "./TypographyCirculator.css";
 
-import useInterval from "../../customHooks/useInterval/useInterval";
 import Typography from "../../atoms/Typography/Typography";
 
 const TypographyCirculator = (props) => {
@@ -16,10 +15,11 @@ const TypographyCirculator = (props) => {
     else setCurrentStringIndex(currentStringIndex + 1);
   };
 
-  useInterval(changeStringIndex, 2300);
-
   return (
-    <div className={`typography-circulator`}>
+    <div
+      className={`typography-circulator`}
+      onAnimationIteration={changeStringIndex}
+    >
       <Typography type={"inlineBlock"} size={size} color={color}>
         {stringList[currentStringIndex]}
       </Typography>
