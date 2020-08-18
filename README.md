@@ -9,3 +9,7 @@
 # Address
 
 [http://kangji.info/](http://kangji.info/)
+
+# Process
+
+[개발 과정](https://github.com/KangJiJi/this-is-me/blob/master/PROCESS.md)
