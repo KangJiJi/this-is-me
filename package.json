@@ -2,6 +2,7 @@
   "name": "this-is-me",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://KangJiJi.github.io/this-is-me",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -15,8 +16,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "./deploy.sh -h 34.85.33.63 -k ~/.ssh/kangji -u kangji -s ./build/ -d ./public_html/",
-    "build-and-deploy": "npm run-script build && npm run-script deploy"
+    "gcp-deploy": "./deploy.sh -h 34.85.33.63 -k ~/.ssh/kangji -u kangji -s ./build/ -d ./public_html/",
+    "build-and-deploy": "npm run-script build && npm run-script deploy",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
