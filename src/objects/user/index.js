@@ -4,7 +4,7 @@ class User {
     name = "",
     nickName = "",
     greeting = "",
-    education = [],
+    educationList = [],
     contactList = [],
     skillList = [],
     license = [],
@@ -13,7 +13,7 @@ class User {
     this._name = name;
     this._nickName = nickName;
     this._greeting = greeting;
-    this._education = education;
+    this._educationList = educationList;
     this._contactList = contactList;
     this._skillList = skillList;
     this._license = license;
@@ -36,7 +36,7 @@ class User {
   }
 
   getEducation() {
-    return this._education;
+    return this._educationList;
   }
 
   getContactList() {
