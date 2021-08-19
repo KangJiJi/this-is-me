@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/this-is-me/static/css/main.4fb01ab6.chunk.css",
-    "main.js": "/this-is-me/static/js/main.9821beef.chunk.js",
-    "main.js.map": "/this-is-me/static/js/main.9821beef.chunk.js.map",
+    "main.css": "/this-is-me/static/css/main.ba086f91.chunk.css",
+    "main.js": "/this-is-me/static/js/main.c010cbfb.chunk.js",
+    "main.js.map": "/this-is-me/static/js/main.c010cbfb.chunk.js.map",
     "runtime-main.js": "/this-is-me/static/js/runtime-main.edeecbb3.js",
     "runtime-main.js.map": "/this-is-me/static/js/runtime-main.edeecbb3.js.map",
-    "static/js/2.4f6d7a5c.chunk.js": "/this-is-me/static/js/2.4f6d7a5c.chunk.js",
-    "static/js/2.4f6d7a5c.chunk.js.map": "/this-is-me/static/js/2.4f6d7a5c.chunk.js.map",
+    "static/js/2.8eed7169.chunk.js": "/this-is-me/static/js/2.8eed7169.chunk.js",
+    "static/js/2.8eed7169.chunk.js.map": "/this-is-me/static/js/2.8eed7169.chunk.js.map",
     "index.html": "/this-is-me/index.html",
-    "precache-manifest.9cd1c6f9d1bccc608ac913fba38d9760.js": "/this-is-me/precache-manifest.9cd1c6f9d1bccc608ac913fba38d9760.js",
+    "precache-manifest.f2cd33d2cb133351d68ef7bdb5192f90.js": "/this-is-me/precache-manifest.f2cd33d2cb133351d68ef7bdb5192f90.js",
     "service-worker.js": "/this-is-me/service-worker.js",
-    "static/css/main.4fb01ab6.chunk.css.map": "/this-is-me/static/css/main.4fb01ab6.chunk.css.map",
-    "static/js/2.4f6d7a5c.chunk.js.LICENSE.txt": "/this-is-me/static/js/2.4f6d7a5c.chunk.js.LICENSE.txt",
+    "static/css/main.ba086f91.chunk.css.map": "/this-is-me/static/css/main.ba086f91.chunk.css.map",
+    "static/js/2.8eed7169.chunk.js.LICENSE.txt": "/this-is-me/static/js/2.8eed7169.chunk.js.LICENSE.txt",
     "static/media/Logo.css": "/this-is-me/static/media/Amarillo.a8e5f24c.otf",
     "static/media/css.png": "/this-is-me/static/media/css.864494da.png",
     "static/media/electronTomato.png": "/this-is-me/static/media/electronTomato.4ae64b73.png",
@@ -25,14 +25,12 @@
     "static/media/movieApp.png": "/this-is-me/static/media/movieApp.1de83495.png",
     "static/media/mozziFront.png": "/this-is-me/static/media/mozziFront.5bb712a2.png",
     "static/media/react.png": "/this-is-me/static/media/react.731edcfc.png",
-    "static/media/southKoreaFlag.png": "/this-is-me/static/media/southKoreaFlag.7780bccb.png",
-    "static/media/thisIsMe.png": "/this-is-me/static/media/thisIsMe.2f2aeba6.png",
-    "static/media/unitedStatesOfAmericaFlag.png": "/this-is-me/static/media/unitedStatesOfAmericaFlag.d8ba0fb2.png"
+    "static/media/thisIsMe.png": "/this-is-me/static/media/thisIsMe.2f2aeba6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.edeecbb3.js",
-    "static/js/2.4f6d7a5c.chunk.js",
-    "static/css/main.4fb01ab6.chunk.css",
-    "static/js/main.9821beef.chunk.js"
+    "static/js/2.8eed7169.chunk.js",
+    "static/css/main.ba086f91.chunk.css",
+    "static/js/main.c010cbfb.chunk.js"
   ]
 }
