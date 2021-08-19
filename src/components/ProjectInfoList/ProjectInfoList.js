@@ -1,20 +1,20 @@
-import React from "react";
+import React from 'react';
 
-import ProjectInfo from "../../atoms/ProjectInfo/ProjectInfo";
-import Gallery from "../../atoms/Gallery/Gallery";
-import ProjectInfoContents from "../../atoms/ProjectInfoContents/ProjectInfoContents";
-import Typography from "../../atoms/Typography/Typography";
-import Label from "../../atoms/Label/Label";
-import List from "../../atoms/List/List";
+import ProjectInfo from '../../atoms/ProjectInfo/ProjectInfo';
+import Gallery from '../../atoms/Gallery/Gallery';
+import ProjectInfoContents from '../../atoms/ProjectInfoContents/ProjectInfoContents';
+import Typography from '../../atoms/Typography/Typography';
+import Label from '../../atoms/Label/Label';
+import List from '../../atoms/List/List';
 
-import electronTomato from "../../assets/images/projects/electronTomato.png";
-import flappyBird from "../../assets/images/projects/flappyBird.png";
-import foogle from "../../assets/images/projects/foogle.png";
-import movieApp from "../../assets/images/projects/movieApp.png";
-import mozziFront from "../../assets/images/projects/mozziFront.png";
-import thisIsMe from "../../assets/images/projects/thisIsMe.png";
+import electronTomato from '../../assets/images/projects/electronTomato.png';
+import flappyBird from '../../assets/images/projects/flappyBird.png';
+import foogle from '../../assets/images/projects/foogle.png';
+import movieApp from '../../assets/images/projects/movieApp.png';
+import mozziFront from '../../assets/images/projects/mozziFront.png';
+import thisIsMe from '../../assets/images/projects/thisIsMe.png';
 
-import "./ProjectInfoList.css";
+import './ProjectInfoList.css';
 
 const ProjectInfoListVal = (props) => {
   const {
@@ -74,21 +74,24 @@ const ProjectInfoContentsList = [
     projectDescription: (
       <>
         <span className={`font-color--primary-color`}>React</span>로 제작한 개인
-        포트폴리오 사이트다. 개인정보와 진행했던 프로젝트를 보여준다.{" "}
+        포트폴리오 사이트다. 개인정보와 진행했던 프로젝트를 보여준다.{' '}
         <span className={`font-color--primary-color`}>React</span>외 다른
-        라이브러리는{" "}
+        라이브러리는{' '}
         <span className={`font-color--secondary-primary-color`}>지양</span>했고,
-        최대한 깔끔하고 재활용성 가능한 컴포넌트 제작에 중점을 두고 제작했다.
-        또한{" "}
-        <span className={`font-color--secondary-primary-color`}>다국어</span>도
-        지원한다.
+        최대한 깔끔하고{' '}
+        <span className={`font-color--primary-color`}>재활용</span>
+        가능한 컴포넌트 제작에 중점을 두고 제작했다. 또한{' '}
+        <span className={`font-color--secondary-primary-color`}>반응형 웹</span>
+        이며,{' '}
+        <span className={`font-color--secondary-primary-color`}>디자인</span>도
+        직접 구상했다.
       </>
     ),
     projectCharacteristic: [
-      "React 사용",
-      "Back-end 없음",
-      "컴포넌트 재활용",
-      "다국어 지원",
+      'React 사용',
+      'Back-end 없음',
+      '컴포넌트 재활용',
+      '직접 디자인',
     ],
     projectGitHubLink: `https://github.com/KangJiJi/this-is-me`,
   },
@@ -98,28 +101,28 @@ const ProjectInfoContentsList = [
     label: `Electron pomodoro`,
     projectDescription: (
       <>
-        <span className={`font-color--primary-color`}>React</span>와{" "}
-        <span className={`font-color--primary-color`}>Electron</span>으로 제작한{" "}
+        <span className={`font-color--primary-color`}>React</span>와{' '}
+        <span className={`font-color--primary-color`}>Electron</span>으로 제작한{' '}
         <span className={`font-color--secondary-primary-color`}>
           포모도로 타이머
         </span>
-        다. 25분간 집중해서 일을 하고 5분을 쉬게 해주는 타이머로{" "}
+        다. 25분간 집중해서 일을 하고 5분을 쉬게 해주는 타이머로{' '}
         <span className={`font-color--secondary-primary-color`}>
           토마토 신호등
-        </span>{" "}
-        컨셉을 가지고 있는 어플리케이션이다.{" "}
-        <span className={`font-color--primary-color`}>React</span>와{" "}
+        </span>{' '}
+        컨셉을 가지고 있는 어플리케이션이다.{' '}
+        <span className={`font-color--primary-color`}>React</span>와{' '}
         <span className={`font-color--primary-color`}>Electron</span> 이외
         라이브러리는 사용하지 않았다. 윈도우에 두 가지 포터블과 설치 버전이 있고
         맥용 버전도 있다.
       </>
     ),
     projectCharacteristic: [
-      "React 사용",
-      "Electron 사용",
-      "간단한 UI",
-      "신호등 디자인",
-      "시간별 알림",
+      'React 사용',
+      'Electron 사용',
+      '간단한 UI',
+      '신호등 디자인',
+      '시간별 알림',
     ],
     projectGitHubLink: `https://github.com/KangJiJi/electron-pomodoro`,
   },
@@ -129,13 +132,13 @@ const ProjectInfoContentsList = [
     label: `Flappy bird clone coding`,
     projectDescription: (
       <>
-        객체지향프로그래밍 수업시간 개인 프로젝트로 제출한{" "}
-        <span className={`font-color--primary-color`}>Java</span>와{" "}
+        객체지향프로그래밍 수업시간 개인 프로젝트로 제출한{' '}
+        <span className={`font-color--primary-color`}>Java</span>와{' '}
         <span className={`font-color--primary-color`}>JavaFx</span>를 Flappy
-        bird 게임{" "}
+        bird 게임{' '}
         <span className={`font-color--secondary-primary-color`}>
           clone coding
-        </span>{" "}
+        </span>{' '}
         프로젝트. 여러 기능의 구현보다는
         <span className={`font-color--secondary-primary-color`}>
           객체지향적 사고
@@ -149,12 +152,12 @@ const ProjectInfoContentsList = [
       </>
     ),
     projectCharacteristic: [
-      "Java와 JavaFx 사용",
-      "상속과 다형성",
-      "Marker interface",
-      "View와 Logic의 분리",
-      "Observable 객체를 이용한 View와 Logic의 연결",
-      "간단한 UI",
+      'Java와 JavaFx 사용',
+      '상속과 다형성',
+      'Marker interface',
+      'View와 Logic의 분리',
+      'Observable 객체를 이용한 View와 Logic의 연결',
+      '간단한 UI',
     ],
     projectGitHubLink: `https://github.com/KangJiJi/flappy-bird-clone-coding`,
   },
@@ -164,28 +167,28 @@ const ProjectInfoContentsList = [
     label: `Mozzi front-end`,
     projectDescription: (
       <>
-        서울과학기술대학교{" "}
+        서울과학기술대학교{' '}
         <span className={`font-color--secondary-primary-color`}>
           TCP 동아리
         </span>
-        에서 만든 동아리 웹 프로젝트다. 현재 Back-end는 없고,{" "}
+        에서 만든 동아리 웹 프로젝트다. 현재 Back-end는 없고,{' '}
         <span className={`font-color--secondary-primary-color`}>Front-end</span>
         만 존재하며, 모든 api 요청에 delay를 통해 로딩 화면을 볼 수 있다.
-        <span className={`font-color--primary-color`}>Material-ui</span>,{" "}
-        <span className={`font-color--primary-color`}>React router</span>,{" "}
-        <span className={`font-color--primary-color`}>Redux</span>,{" "}
+        <span className={`font-color--primary-color`}>Material-ui</span>,{' '}
+        <span className={`font-color--primary-color`}>React router</span>,{' '}
+        <span className={`font-color--primary-color`}>Redux</span>,{' '}
         <span className={`font-color--primary-color`}>Redux-saga</span>를
         사용했다. <span className={`font-color--primary-color`}>Redux</span>는
         모든 라우팅 되는 페이지에서 로그인 상태를 알기 위해서 사용했다. 많은
-        점을{" "}
+        점을{' '}
         <span className={`font-color--secondary-primary-color`}>리팩토링</span>
         해야 한다.
       </>
     ),
     projectCharacteristic: [
-      "React 사용",
-      "Material-ui 사용",
-      "Redux, Redux-saga 사용",
+      'React 사용',
+      'Material-ui 사용',
+      'Redux, Redux-saga 사용',
     ],
     projectGitHubLink: `https://github.com/TeamCrazyPerformance/mozzi_front`,
     projectLink: `https://teamcrazyperformance.github.io/mozzi_front/#/`,
@@ -196,18 +199,18 @@ const ProjectInfoContentsList = [
     label: `Movie app`,
     projectDescription: (
       <>
-        유튜브에서 활동 중인 노마드 코더의{" "}
+        유튜브에서 활동 중인 노마드 코더의{' '}
         <span className={`font-color--primary-color`}>React</span>강의 영상을
-        기초로 <span className={`font-color--primary-color`}>Redux</span>와{" "}
+        기초로 <span className={`font-color--primary-color`}>Redux</span>와{' '}
         <span className={`font-color--secondary-primary-color`}>
           무한 스크롤
-        </span>{" "}
+        </span>{' '}
         기능을 추가해서 만든 Movie-app 프로젝트다. 원래는 API를 통해 영화
-        리스트를 보여주지만,{" "}
+        리스트를 보여주지만,{' '}
         <span className={`font-color--primary-color`}>Redux</span>를 통해서 영화
-        정보를{" "}
+        정보를{' '}
         <span className={`font-color--secondary-primary-color`}>Store</span>로
-        관리하고{" "}
+        관리하고{' '}
         <span className={`font-color--secondary-primary-color`}>
           무한 스크롤
         </span>
@@ -215,10 +218,10 @@ const ProjectInfoContentsList = [
       </>
     ),
     projectCharacteristic: [
-      "React 사용",
-      "공개 영화 API 사용",
-      "Redux, Redux-thunk 사용",
-      "무한 스크롤",
+      'React 사용',
+      '공개 영화 API 사용',
+      'Redux, Redux-thunk 사용',
+      '무한 스크롤',
     ],
     projectGitHubLink: `https://github.com/KangJiJi/Movie-App`,
     projectLink: `https://kangjiji.github.io/Movie-App/`,
@@ -229,25 +232,25 @@ const ProjectInfoContentsList = [
     label: `Foogle`,
     projectDescription: (
       <>
-        웹프로그래밍 수업시간에 만든{" "}
+        웹프로그래밍 수업시간에 만든{' '}
         <span className={`font-color--secondary-primary-color`}>
           이스터에그
         </span>
-        를 숨기고 있는{" "}
+        를 숨기고 있는{' '}
         <span className={`font-color--secondary-primary-color`}>
           웹 프로젝트
         </span>
-        다. Fool과 Google의 합성어로{" "}
+        다. Fool과 Google의 합성어로{' '}
         <span className={`font-color--secondary-primary-color`}>Foogle</span>
         이라는 이름의 프로젝트를 만들었으며,
-        <span className={`font-color--primary-color`}>HTML5</span>의{" "}
+        <span className={`font-color--primary-color`}>HTML5</span>의{' '}
         <span className={`font-color--primary-color`}>Canvas</span>를 이용해
-        특정 문자열이 입력되면 비가오거나 멈추는 효과를 구현했다.{" "}
+        특정 문자열이 입력되면 비가오거나 멈추는 효과를 구현했다.{' '}
         <span className={`font-color--primary-color`}>Vanilla JS</span> 로
         구현을 했으며, 나의 첫번째 웹 프로젝트다.
       </>
     ),
-    projectCharacteristic: ["HTML5 canvas 사용", "Vanilla JS 사용"],
+    projectCharacteristic: ['HTML5 canvas 사용', 'Vanilla JS 사용'],
     projectGitHubLink: `https://github.com/KangJiJi/Foogle`,
     projectLink: `https://kangjiji.github.io/Foogle/`,
   },
