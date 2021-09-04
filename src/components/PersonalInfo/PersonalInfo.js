@@ -140,12 +140,14 @@ const PersonalInfo = () => {
                 ))}
               </div>
             </div>
-            <div className={`personal-info__license personal-info__card`}>
-              <Label label={`자격증`} />
+            <div
+              className={`personal-info__current-Interests personal-info__card`}
+            >
+              <Label label={`최근관심분야`} />
               <div
-                className={`personal-info__license__contents personal-info__card__contents`}
+                className={`personal-info__current-Interests__contents personal-info__card__contents`}
               >
-                <List list={user.getLicense()} />
+                <List list={[`Design pattern`, `Clean Code`]} />
               </div>
             </div>
           </div>
