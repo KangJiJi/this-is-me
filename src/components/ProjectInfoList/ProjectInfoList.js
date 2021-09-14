@@ -79,8 +79,8 @@ const ProjectInfoContentsList = [
         라이브러리는{' '}
         <span className={`font-color--secondary-primary-color`}>지양</span>했고,
         최대한 깔끔하고{' '}
-        <span className={`font-color--primary-color`}>재활용</span>
-        가능한 컴포넌트 제작에 중점을 두고 제작했다. 또한{' '}
+        <span className={`font-color--primary-color`}>재사용</span>
+        가능한 컴포넌트 제작에 노력을 기울였다. 또한{' '}
         <span className={`font-color--secondary-primary-color`}>반응형 웹</span>
         이며,{' '}
         <span className={`font-color--secondary-primary-color`}>디자인</span>도
@@ -90,8 +90,8 @@ const ProjectInfoContentsList = [
     projectCharacteristic: [
       'React 사용',
       'Back-end 없음',
-      '컴포넌트 재활용',
-      '직접 디자인',
+      '컴포넌트 재사용',
+      '간단한 디자인',
     ],
     projectGitHubLink: `https://github.com/KangJiJi/this-is-me`,
   },
@@ -143,8 +143,8 @@ const ProjectInfoContentsList = [
         <span className={`font-color--secondary-primary-color`}>
           객체지향적 사고
         </span>
-        와 유지 보수 가능한 코드를 만드는 것에 더 중점을 두고 프로젝트를
-        진행했다. View와 Logic을 분리했고, 상속과 다형성을 이용해
+        와 유지 보수 가능한 코드를 만드는 것에 더 노력하며 프로젝트를 진행했다.
+        View와 Logic을 분리했고, 상속과 다형성을 이용해
         <span className={`font-color--secondary-primary-color`}>
           객체지향 패러다임
         </span>
