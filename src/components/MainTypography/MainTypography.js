@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-import "./MainTypography.css";
+import './MainTypography.css';
 
-import TypographyCirculator from "../../components/TypographyCirculator/TypographyCirculator";
-import Typography from "../../atoms/Typography/Typography";
+import TypographyCirculator from '../../components/TypographyCirculator/TypographyCirculator';
+import Typography from '../../atoms/Typography/Typography';
 
 const MainTypography = () => {
   return (
@@ -14,21 +14,21 @@ const MainTypography = () => {
             className={`main-typography__inner__typography-wrapper__typography-circulator-wrapper`}
           >
             <TypographyCirculator
-              stringList={["JavaScript", "UI/UX", "언어"]}
-              size={"large"}
-              color={"subPrimary"}
+              stringList={['JavaScript', 'UI/UX', '대화']}
+              size={'large'}
+              color={'subPrimary'}
             />
           </div>
-          {"를 좋아하는 Front-end 개발자"
-            .split(" ")
+          {'를 좋아하는 Front-end 개발자'
+            .split(' ')
             .map((val, index, array) => (
               <Typography
-                size={"large"}
-                color={"primary"}
-                type={"inlineBlock"}
+                size={'large'}
+                color={'primary'}
+                type={'inlineBlock'}
                 key={val}
               >
-                {`${val}${index === array.length - 1 ? "" : "\u00A0"}`}
+                {`${val}${index === array.length - 1 ? '' : '\u00A0'}`}
               </Typography>
             ))}
         </div>

@@ -41,6 +41,15 @@
   font-size: 2rem;
 }
 
+.personal-info__greeting {
+  width: 100%;
+  text-align: justify;
+}
+
+.personal-info__greeting span {
+  display: inline-block;
+}
+
 .personal-info__skill__img {
   display: inline-block;
   width: 50%;

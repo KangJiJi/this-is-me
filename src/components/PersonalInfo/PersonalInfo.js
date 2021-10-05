@@ -33,7 +33,7 @@ const PersonalInfo = () => {
           JavaScript
         </span>
         , <span className={`font-color--secondary-primary-color`}>UI/UX</span>,{' '}
-        <span className={`font-color--secondary-primary-color`}>언어</span>를
+        <span className={`font-color--secondary-primary-color`}>대화</span>를
         좋아하는 <span className={`font-color--primary-color`}>Front-end</span>{' '}
         개발자입니다.
         <br />
@@ -42,8 +42,8 @@ const PersonalInfo = () => {
         <span className={`font-color--secondary-primary-color`}>소통</span>
         하고 끊임없는{' '}
         <span className={`font-color--secondary-primary-color`}>자기 계발</span>
-        을 <span className={`font-color--primary-color`}>지향</span>
-        합니다.
+        과 <span className={`font-color--secondary-primary-color`}>성장</span>을
+        위해 <span className={`font-color--primary-color`}>노력</span>합니다.
       </>
     )
     .educationList([
