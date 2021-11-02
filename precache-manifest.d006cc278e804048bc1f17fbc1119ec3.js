@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "25af06bf66e69bf6e2d524be37230587",
+    "revision": "3eb0846048b2dee649d91067a8ee660e",
     "url": "/this-is-me/index.html"
   },
   {
-    "revision": "cf5c48321e422bad64d5",
+    "revision": "196be3658fde51eb47d8",
     "url": "/this-is-me/static/css/main.fe9969ce.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/this-is-me/static/js/2.8eed7169.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cf5c48321e422bad64d5",
-    "url": "/this-is-me/static/js/main.b7d4d16b.chunk.js"
+    "revision": "196be3658fde51eb47d8",
+    "url": "/this-is-me/static/js/main.a9c0263a.chunk.js"
   },
   {
     "revision": "5d8f4ab3adb6fc0af30c",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a8e5f24c06c6981d316cc34f0ea86200",
     "url": "/this-is-me/static/media/Amarillo.a8e5f24c.otf"
+  },
+  {
+    "revision": "ba5c3896ffebc869210d10b813b8d886",
+    "url": "/this-is-me/static/media/antiqueUniverse.ba5c3896.png"
   },
   {
     "revision": "864494daf5a9b470e2d9876826218ca9",
@@ -70,10 +74,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1de83495e4cb5630d110c76548946614",
     "url": "/this-is-me/static/media/movieApp.1de83495.png"
-  },
-  {
-    "revision": "5bb712a27bdb509a0a895a7bd8c9ec9e",
-    "url": "/this-is-me/static/media/mozziFront.5bb712a2.png"
   },
   {
     "revision": "731edcfc3098bb04ca1ba41e7a5ae48d",
