@@ -13,6 +13,7 @@ import foogle from '../../assets/images/projects/foogle.png';
 import movieApp from '../../assets/images/projects/movieApp.png';
 import mozziFront from '../../assets/images/projects/mozziFront.png';
 import thisIsMe from '../../assets/images/projects/thisIsMe.png';
+import antiqueUniverse from '../../assets/images/projects/antiqueUniverse.png';
 
 import './ProjectInfoList.css';
 
@@ -67,6 +68,28 @@ const ProjectInfoListVal = (props) => {
 };
 
 const ProjectInfoContentsList = [
+  {
+    image: antiqueUniverse,
+    imageAlt: `antiqueUniverseImage`,
+    label: `Antique universe`,
+    projectDescription: (
+      <>
+        <span className={`font-color--primary-color`}>Phaser</span>와{' '}
+        <span className={`font-color--primary-color`}>React</span>로 구현한{' '}
+        <span className={`font-color--secondary-primary-color`}>
+          화상 채팅기반 메타버스 중고거래 웹 플랫폼
+        </span>
+        입니다. 캡스톤 디자인에서{' '}
+        <span className={`font-color--primary-color`}>졸업작품</span>으로 구현한
+        프로젝트입니다.{' '}
+        <span className={`font-color--secondary-primary-color`}>SFU 구조</span>
+        를 <span className={`font-color--primary-color`}>WebRtc</span>로
+        구현해서 화상 채팅이 가능합니다.
+      </>
+    ),
+    projectCharacteristic: ['Phaser', 'SocketIo', 'WebRtc', 'Metaverse'],
+    projectGitHubLink: `https://github.com/TeamChoiKang`,
+  },
   {
     image: thisIsMe,
     imageAlt: `thisIsMeProjectImage`,
