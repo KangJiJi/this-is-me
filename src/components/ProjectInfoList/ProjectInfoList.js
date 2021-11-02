@@ -11,7 +11,6 @@ import electronTomato from '../../assets/images/projects/electronTomato.png';
 import flappyBird from '../../assets/images/projects/flappyBird.png';
 import foogle from '../../assets/images/projects/foogle.png';
 import movieApp from '../../assets/images/projects/movieApp.png';
-import mozziFront from '../../assets/images/projects/mozziFront.png';
 import thisIsMe from '../../assets/images/projects/thisIsMe.png';
 import antiqueUniverse from '../../assets/images/projects/antiqueUniverse.png';
 
