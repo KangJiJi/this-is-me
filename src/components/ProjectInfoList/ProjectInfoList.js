@@ -80,10 +80,11 @@ const ProjectInfoContentsList = [
         </span>
         입니다. 캡스톤 디자인에서{' '}
         <span className={`font-color--primary-color`}>졸업작품</span>으로 구현한
-        프로젝트입니다.{' '}
+        프로젝트입니다. 화상채팅을 위해서{' '}
+        <span className={`font-color--primary-color`}>WebRtc</span>를 사용했고,{' '}
+        여러 사용자의 연결을 위해{' '}
         <span className={`font-color--secondary-primary-color`}>SFU 구조</span>
-        를 <span className={`font-color--primary-color`}>WebRtc</span>로
-        구현해서 화상 채팅이 가능합니다.
+        를 적용했습니다.
       </>
     ),
     projectCharacteristic: ['Phaser', 'SocketIo', 'WebRtc', 'Metaverse'],
