@@ -27,7 +27,7 @@ const Studying = () => {
               />
             </div>
             <Typography size={'medium'} color={'primary'} type={'inlineBlock'}>
-              {`공부중...`}
+              {`공부 중...`}
             </Typography>
           </div>
         </div>
