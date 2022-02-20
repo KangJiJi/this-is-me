@@ -1,0 +1,27 @@
+.studying {
+  display: table;
+  width: 100%;
+  height: 100vh;
+  max-height: 1500px;
+  max-height: 93.75rem;
+}
+
+.studying__inner {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.studying__inner__studying-image {
+  margin-bottom: 15px;
+}
+
+.main-typography__inner__typography-wrapper {
+  display: inline-block;
+  width: 100%;
+}
+
+.studying__inner__main-typography {
+  display: inline-block;
+  width: 110px;
+}
